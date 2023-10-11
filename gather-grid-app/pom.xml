@@ -7,8 +7,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <!-- Project coordinates -->
-  <groupId>com.example</groupId>
-  <artifactId>my-jakartaee-app</artifactId>
+  <groupId>com.saadproject</groupId>
+  <artifactId>gathergrid</artifactId>
   <version>1.0</version>
 
   <!-- Project metadata -->
