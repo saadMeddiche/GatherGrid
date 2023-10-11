@@ -8,5 +8,13 @@ Source 1 :https://blog.payara.fish/getting-started-with-jakarta-ee-9-hello-world
 
 Cmd : mvn archetype:generate "-DgroupId=com.example" "-DartifactId=my-jakartaee-app" "-DarchetypeGroupId=org.apache.maven.archetypes" "-DarchetypeArtifactId=maven-archetype-quickstart"
 
+# How To Make Change On pom.xml And save those change and rebuild the project
 
-# How To Rebuild The Project
+Source 1: chat gbt
+
+-- Cmds : to Save the pom.xml file
+-mvn clean # Cleans the project
+-mvn install # Builds and installs the project into the local repository
+
+-- Cmd: to Rename the Project Directory
+-mv my-jakartaee-app GatherGrid
