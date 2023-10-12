@@ -1,4 +1,5 @@
-com\example\Event.class
-com\example\FirstSlash.class
-com\example\HelloWorld.class
-com\example\User.class
+com\example\servlets\FirstSlash.class
+com\example\entities\User.class
+com\example\servlets\HelloWorld.class
+com\example\helpers\TransactionHelper.class
+com\example\entities\Event.class

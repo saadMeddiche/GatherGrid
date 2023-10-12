@@ -1,4 +1,5 @@
-C:\xampp\htdocs\GatherGrid\gather-grid-app\src\main\java\com\example\Event.java
-C:\xampp\htdocs\GatherGrid\gather-grid-app\src\main\java\com\example\User.java
-C:\xampp\htdocs\GatherGrid\gather-grid-app\src\main\java\com\example\FirstSlash.java
-C:\xampp\htdocs\GatherGrid\gather-grid-app\src\main\java\com\example\HelloWorld.java
+C:\xampp\htdocs\GatherGrid\gather-grid-app\src\main\java\com\example\helpers\TransactionHelper.java
+C:\xampp\htdocs\GatherGrid\gather-grid-app\src\main\java\com\example\servlets\FirstSlash.java
+C:\xampp\htdocs\GatherGrid\gather-grid-app\src\main\java\com\example\entities\Event.java
+C:\xampp\htdocs\GatherGrid\gather-grid-app\src\main\java\com\example\servlets\HelloWorld.java
+C:\xampp\htdocs\GatherGrid\gather-grid-app\src\main\java\com\example\entities\User.java

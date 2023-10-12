@@ -26,3 +26,7 @@ Source 1 : https://www.hubberspot.com/2012/05/how-to-create-simple-hello-world.h
 # How To Cofigure Hibernate
 
 Source 1 : https://www.youtube.com/watch?v=BU_UhmtRXdY&list=RDCMUC-Gn7EgShAINFthjuzxi9PQ&index=2&ab_channel=LearnCodeWithDurgesh
+
+# Main Source
+
+Source 1 : https://www.baeldung.com/hibernate-entitymanager
