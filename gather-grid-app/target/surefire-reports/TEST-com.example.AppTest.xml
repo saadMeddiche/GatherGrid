@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.AppTest" time="0.049" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.AppTest" time="0.089" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\xampp\htdocs\GatherGrid\gather-grid-app\target\test-classes;C:\xampp\htdocs\GatherGrid\gather-grid-app\target\classes;C:\Users\YouCode\.m2\repository\jakarta\platform\jakarta.jakartaee-api\8.0.0\jakarta.jakartaee-api-8.0.0.jar;C:\Users\YouCode\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.0.0\jakarta.servlet-api-6.0.0.jar;C:\Users\YouCode\.m2\repository\jakarta\servlet\jsp\jakarta.servlet.jsp-api\3.1.1\jakarta.servlet.jsp-api-3.1.1.jar;C:\Users\YouCode\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\YouCode\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\xampp\htdocs\GatherGrid\gather-grid-app\target\test-classes;C:\xampp\htdocs\GatherGrid\gather-grid-app\target\classes;C:\Users\YouCode\.m2\repository\jakarta\servlet\jakarta.servlet-api\5.0.0\jakarta.servlet-api-5.0.0.jar;C:\Users\YouCode\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\YouCode\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Java\jdk-11.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\YouCode\AppData\Local\Temp\surefire6450993268138461833\surefirebooter16994899266594642779.jar C:\Users\YouCode\AppData\Local\Temp\surefire6450993268138461833 2023-10-11T13-43-27_644-jvmRun1 surefire9347404760369820973tmp surefire_010267873948408201878tmp"/>
+    <property name="sun.java.command" value="C:\Users\YouCode\AppData\Local\Temp\surefire882983997975333684\surefirebooter10008572502646291701.jar C:\Users\YouCode\AppData\Local\Temp\surefire882983997975333684 2023-10-12T10-05-30_654-jvmRun1 surefire4221996644912877949tmp surefire_014373117322371338719tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\xampp\htdocs\GatherGrid\gather-grid-app\target\test-classes;C:\xampp\htdocs\GatherGrid\gather-grid-app\target\classes;C:\Users\YouCode\.m2\repository\jakarta\platform\jakarta.jakartaee-api\8.0.0\jakarta.jakartaee-api-8.0.0.jar;C:\Users\YouCode\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.0.0\jakarta.servlet-api-6.0.0.jar;C:\Users\YouCode\.m2\repository\jakarta\servlet\jsp\jakarta.servlet.jsp-api\3.1.1\jakarta.servlet.jsp-api-3.1.1.jar;C:\Users\YouCode\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\YouCode\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\xampp\htdocs\GatherGrid\gather-grid-app\target\test-classes;C:\xampp\htdocs\GatherGrid\gather-grid-app\target\classes;C:\Users\YouCode\.m2\repository\jakarta\servlet\jakarta.servlet-api\5.0.0\jakarta.servlet-api-5.0.0.jar;C:\Users\YouCode\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\YouCode\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\YouCode"/>
     <property name="user.language" value="en"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\YouCode\AppData\Local\Temp\surefire6450993268138461833\surefirebooter16994899266594642779.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\YouCode\AppData\Local\Temp\surefire882983997975333684\surefirebooter10008572502646291701.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.2+9"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.example.AppTest" time="0.008"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.example.AppTest" time="0.003"/>
 </testsuite>

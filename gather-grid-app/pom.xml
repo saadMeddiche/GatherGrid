@@ -10,6 +10,8 @@
   <groupId>com.saadproject</groupId>
   <artifactId>gathergrid</artifactId>
   <version>1.0</version>
+  <packaging>war</packaging>
+
 
   <!-- Project metadata -->
   <name>my-jakartaee-app</name>
@@ -29,31 +31,29 @@
   <!-- Project dependencies -->
   <dependencies>
 
-    <!-- Jakarta EE API -->
     <dependency>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
+      <version>5.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+
+
+    <!-- Jakarta EE API -->
+    <!-- <dependency>
       <groupId>jakarta.platform</groupId>
       <artifactId>jakarta.jakartaee-api</artifactId>
       <version>8.0.0</version>
       <scope>provided</scope>
-    </dependency>
+    </dependency> -->
 
     <!-- Servlet API -->
-    <dependency>
+    <!-- <dependency>
       <groupId>jakarta.servlet</groupId>
       <artifactId>jakarta.servlet-api</artifactId>
       <version>6.0.0</version>
       <scope>provided</scope>
-    </dependency>
-
-    <!-- JSP API -->
-    <dependency>
-      <groupId>jakarta.servlet.jsp</groupId>
-      <artifactId>jakarta.servlet.jsp-api</artifactId>
-      <version>3.1.1</version>
-      <scope>provided</scope>
-    </dependency>
-
-
+    </dependency> -->
 
     <!-- Define a dependency on JUnit for testing -->
     <dependency>
@@ -62,6 +62,7 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
   </dependencies>
 
   <!-- Build configuration -->
@@ -106,7 +107,13 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.2</version>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
 </project>
+
