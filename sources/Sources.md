@@ -22,3 +22,7 @@ Source 1: chat gbt
 # How To Create A Simple Hellow World
 
 Source 1 : https://www.hubberspot.com/2012/05/how-to-create-simple-hello-world.html
+
+# How To Cofigure Hibernate
+
+Source 1 : https://www.youtube.com/watch?v=BU_UhmtRXdY&list=RDCMUC-Gn7EgShAINFthjuzxi9PQ&index=2&ab_channel=LearnCodeWithDurgesh

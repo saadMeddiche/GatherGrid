@@ -24,13 +24,4 @@ public class HelloWorld extends HttpServlet {
 
     }
 
-    public static void main(String[] args) {
-        SessionFactory factory = new Configuration().configure("hibernate.cfg.xml")
-                .buildSessionFactory();
-        System.out.println("Hello World!!!!!!");
-        System.out.println("Test 1" + factory.toString());
-        System.out.println("Test 2" + factory.isClosed());
-        factory.close();
-        System.out.println("Test 3" + factory.isClosed());
-    }
 }
