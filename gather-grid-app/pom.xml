@@ -31,7 +31,7 @@
   <!-- Project dependencies -->
   <dependencies>
 
-      <!-- Jakarta Servlet API -->
+    <!-- Jakarta Servlet API -->
     <dependency>
       <groupId>jakarta.servlet</groupId>
       <artifactId>jakarta.servlet-api</artifactId>
@@ -45,6 +45,13 @@
       <artifactId>hibernate-core</artifactId>
       <version>6.3.1.Final</version>
       <type>pom</type>
+    </dependency>
+ 
+    <!-- MySql driver dependency -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.33</version>
     </dependency>
 
     <!-- Define a dependency on JUnit for testing -->
