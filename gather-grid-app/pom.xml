@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- The project's POM file -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  
+
   <!-- Specify the Maven version for this POM -->
   <modelVersion>4.0.0</modelVersion>
 
@@ -14,7 +15,7 @@
 
 
   <!-- Project metadata -->
-  <name>my-jakartaee-app</name>
+  <name>Gather-Grid</name>
   <!-- FIXME: Change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -22,7 +23,7 @@
   <properties>
     <!-- Set the character encoding for the source files -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    
+
     <!-- Set the Java version for compilation -->
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
@@ -43,15 +44,14 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
-      <version>6.3.1.Final</version>
-      <type>pom</type>
+      <version>5.4.5.Final</version>
     </dependency>
- 
+
     <!-- MySql driver dependency -->
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.33</version>
+      <version>5.1.48</version>
     </dependency>
 
     <!-- Define a dependency on JUnit for testing -->
@@ -107,12 +107,11 @@
           <version>3.0.0</version>
         </plugin>
         <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.3.2</version>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>3.3.2</version>
         </plugin>
       </plugins>
     </pluginManagement>
   </build>
 </project>
-
