@@ -31,6 +31,7 @@
   <!-- Project dependencies -->
   <dependencies>
 
+      <!-- Jakarta Servlet API -->
     <dependency>
       <groupId>jakarta.servlet</groupId>
       <artifactId>jakarta.servlet-api</artifactId>
@@ -38,22 +39,13 @@
       <scope>provided</scope>
     </dependency>
 
-
-    <!-- Jakarta EE API -->
-    <!-- <dependency>
-      <groupId>jakarta.platform</groupId>
-      <artifactId>jakarta.jakartaee-api</artifactId>
-      <version>8.0.0</version>
-      <scope>provided</scope>
-    </dependency> -->
-
-    <!-- Servlet API -->
-    <!-- <dependency>
-      <groupId>jakarta.servlet</groupId>
-      <artifactId>jakarta.servlet-api</artifactId>
-      <version>6.0.0</version>
-      <scope>provided</scope>
-    </dependency> -->
+    <!-- Hibernate Dependecies -->
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>6.3.1.Final</version>
+      <type>pom</type>
+    </dependency>
 
     <!-- Define a dependency on JUnit for testing -->
     <dependency>
