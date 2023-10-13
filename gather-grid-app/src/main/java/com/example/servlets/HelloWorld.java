@@ -3,12 +3,6 @@ package com.example.servlets;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import com.example.helpers.TransactionHelper;
-
-import jakarta.persistence.PersistenceContext;
-
-import jakarta.persistence.EntityManager;
-
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
